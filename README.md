@@ -2,9 +2,11 @@
 
 ## Depends
 
-"github.com/BurntSushi/toml"
-"github.com/satori/go.uuid"
-"gopkg.in/ldap.v2"
+* "github.com/BurntSushi/toml"
+
+* "github.com/satori/go.uuid"
+
+* "gopkg.in/ldap.v2"
 
 ## Requirements
 
@@ -95,3 +97,8 @@ memberOf: cn=uploadfiles,cn=groups,cn=accounts,dc=example,dc=com
 ### Upload Section
 
 * The path to save the uploaded files
+
+```shell
+[upload]
+path = '/tmp'
+```
