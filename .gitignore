@@ -1,0 +1,20 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+uploadvideo
+uploadvideo_linux
+uploadvideo_mac
+uploadvideo_darwin
+uploadvideo_win
+uploadvideo_arm
+test.toml
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out

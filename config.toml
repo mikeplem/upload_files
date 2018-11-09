@@ -1,0 +1,18 @@
+[listen]
+ssl = false
+cert = "wildcard_certificate"
+key = "wildcard_key"
+port = 8081
+
+[ldap]
+useLdap = false
+host = "ldap.example.com"
+port = 389
+base = "cn=users,cn=accounts,dc=example,dc=com"
+groupbase = "cn=groups,cn=accounts,dc=example,dc=com"
+binddn = "cn=users,cn=accounts,dc=example,dc=com"
+bindpassword = "some password"
+groupname = "uploadfiles"
+
+[upload]
+path = '/tmp'
